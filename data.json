@@ -1,24 +1,21 @@
-{
 
-    "Art": {
-        "name":"Art of the Ages",
-        "heading":"Artists are just children who refuse to put down their crayons.",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas odio quam, sagittis quis velit a, mollis congue neque. Sed sollicitudin quam malesuada condimentum auctor. Integer sit amet lacus mattis, rutrum tortor id, ornare mauris. Sed faucibus ante id pellentesque ullamcorper. Vivamus et diam et ex ornare lobortis. Etiam ut enim nec mauris accumsan volutpat at",
-        "favpic":"art.jpg"
+  {
+    "Thing1": {
+        "name":"Thing One: Shylo",
+        "heading":"Adorable and Possibly Immortal",
+        "description":"Shylo is my families dog. At 10yrs old and 22 pounds, 5 of which she could do without the vet says, she is made for lap dog lifehood. She is our longest living pet and with zero health issues ever we suspect she may be immortal as we adopted her when she was 2 we have no proof of her birth. ",
+        "favpic":"shylo.png"
     },
-
-    "Rex the Cat": {
-        "name":"Rex the Cat",
-        "heading":"Who needs a feather duster when you have a tail like this",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas odio quam, sagittis quis velit a, mollis congue neque. Sed sollicitudin quam malesuada condimentum auctor. Integer sit amet lacus mattis, rutrum tortor id, ornare mauris. Sed faucibus ante id pellentesque ullamcorper. Vivamus et diam et ex ornare lobortis. Etiam ut enim nec mauris accumsan volutpat at",
-        "favpic":"rex.jpg"
+    "Thing2": {
+        "name":"Thing Two: Millie",
+        "heading":"Chicken in Dogs Clothing",
+        "description":"Millie is the most recent addition to the household and little sister to shylo. She's a miniture labradoodle and has about 5 brain cells which do not work all at once. Deathly affraid of the rabbit that lives under the back porch she demands to be escorted to the backyard for her nightly constitution no matter the weather or hour. She is unfortunately afraid of most things, including everytime her tail hits something that makes a noise.",
+        "favpic":"millie.png"
     },
-
-    "Organization": {
-        "name":"Organization Nation",
-        "heading":"Organized people are just to lazy to look for things",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas odio quam, sagittis quis velit a, mollis congue neque. Sed sollicitudin quam malesuada condimentum auctor. Integer sit amet lacus mattis, rutrum tortor id, ornare mauris. Sed faucibus ante id pellentesque ullamcorper. Vivamus et diam et ex ornare lobortis. Etiam ut enim nec mauris accumsan volutpat at",
-        "favpic":"organization.jpg"
+    "Thing3": {
+        "name":"Thing Three: Beach Sunset",
+        "heading":"Like the Beach, Don't Like People",
+        "description":"During the day beaches may be hot and overcrowded, but if you come after dinner and don't mind driving at night then beach sunset hour is for you. After a long day of warming under the sun the water is a lovely luke-warm, mother poured, bath tempeture. Splash about in peace without the covid riddled crowds and enjoy a slow-mo light show in the sky as it sets.",
+        "favpic":"beach.png"
     }
-    
   }

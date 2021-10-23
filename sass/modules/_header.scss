@@ -1,0 +1,15 @@
+//this is how the file should be syntaxed - make sure the naming convention starts with an underscore (_)
+
+header {
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    justify-content: left;
+    max-width: 100px;
+}

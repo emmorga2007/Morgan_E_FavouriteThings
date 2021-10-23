@@ -1,0 +1,87 @@
+//this is how the file should be syntaxed - make sure the naming convention starts with an underscore (_)
+
+#favThings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+
+    div {
+        width: 100%;
+        min-width: 400px;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+}
+
+.img {
+    width: 100%;
+}
+
+.fav_name {
+    color: $main-color;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.fav_heading {
+    color: purple;
+    font-size: 1em;
+    font-weight: 900;
+    line-height: 2em;
+}
+
+.fav_description {
+    color: plum;
+    line-height: 1em;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: purple;
+    color: white;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+// desktop
+@media (min-width: 800px) {
+
+    #favThings {
+        div {
+            width: 40%;
+        }
+    }
+
+    .fav_name {
+        font-size: 4em;
+        line-height: 1.4em;
+    }
+
+    .fav_heading {
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+
+    .fav_description {
+        line-height: 1.2em;
+    }
+
+    .button {
+        padding: 8px 20px;
+    }
+
+    .img {
+        max-width: 600px;
+    }
+}
+
+
+

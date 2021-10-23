@@ -1,0 +1,18 @@
+//this is how the file should be syntaxed - make sure the naming convention starts with an underscore (_)
+
+#favThingsButtons {
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+
+    img {
+        max-width: 120px;
+        box-shadow: 5px 8px 10px rgba(0,0,0,0.10);
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link your css file as normal-->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Natasha's Favorite Things!</title>
+</head>
+<body>
+    <div class="siteContainer">
+        <div class="circle"></div>
+
+        <h1 class="hidden">Natasha's Favorite Things!</h1>
+
+        <header class="header"> <!--Header Starts-->
+            <a href="#"> <img src="images/logo.png" alt="logo" class="logo"></a>
+        </header><!--Header Ends-->
+
+        <section id="favThings">
+            <div id="favThingsText">
+                <h2 class="fav_name">slug</h2>
+                <h3 class="fav_heading">slug</h3>
+                <p class="fav_description">
+                    slug
+                </p>
+                <a href="#" class="button">Learn More</a>
+            </div>
+            <div>
+                <img class="img" src="" alt="">
+            </div>
+        </section>
+
+        <section id="favThingsButtons"></section>
+
+    <!--FAV THING CONTENT-->
+        <template id="favThingsButtonTemplate">
+            <div class="favourite_button" data-name="">
+                <img class="img" src="" alt="">
+            </div>
+        </template>
+    </div>
+
+    <script src="js/main.js" type="module" defer></script>
+</body>
+</html>

@@ -28,20 +28,20 @@
 
         updateText(info[favouriteNames[0]])
 
-        // add all thumbnails at the bottom
+        // add all thumbnails at the bottom for click event
         favouriteNames.forEach(favorite => {
             let panel = theFavButtonTemplate.cloneNode(true);
             let section = panel.children;
 
             section[0].dataset.name = favorite
 
-            // add image
+            // add fav pic as thumbnails
             section[0].querySelector("img").src = `images/${info[favorite].favpic}`;
 
             favThingsButtons.appendChild(panel);
         });
 
-        // going through each button and adding click thing event
+        // going through each button and adding click event to the photos
         let buttons = document.querySelectorAll(".favourite_button");
         buttons.forEach(button => {
             button.addEventListener('click', clickFavourite)
